@@ -1,0 +1,709 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.guide{
+    position: fixed;
+    top: 0px;
+left: 0px;
+width: 1440px;
+height: 88px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+z-index: 1;
+}
+.logo{
+    position: absolute;
+    top: 24px;
+left: 62px;
+width: 119px;
+height: 40px;
+opacity: 1;
+}
+.home{
+    position: absolute;
+    top: 34px;
+left: 786px;
+width: 32px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+a:hover{
+    color: #F9C745;
+}
+
+.service{
+    position: absolute;
+    top: 34px;
+left: 866px;
+width: 64px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.service:hover{
+    color: #F9C745;
+}
+.product{
+    position: absolute;
+    top: 34px;
+left: 978px;
+width: 64px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+
+.adopt{
+    position: absolute;
+    top: 34px;
+left: 1090px;
+width: 64px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+
+
+.yellow{
+    position: absolute;
+    top: 26px;
+left: 1204px;
+width: 176px;
+height: 38px;
+background: #F9C745 0% 0% no-repeat padding-box;
+border-radius: 23px;
+opacity: 1;
+}
+.yellow:hover{
+    box-shadow: #3A3A3A;
+}
+.kid{
+    position: absolute;
+    top: 34px;
+left: 1252px;
+width: 80px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+a.kid:hover{
+    color: red;
+}
+.banner{
+    position: absolute;
+    top: 88px;
+left: 0px;
+width: 1440px;
+height: 288px;
+background: transparent url('img/banner.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 1660px;
+    background: transparent url('img/lightpaperfibers.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+
+    z-index: -3;
+
+}
+.enter{
+    position: absolute;
+    top: 456px;
+left: 284px;
+width: 872px;
+height: 1124px;
+border-top: 3px solid #F9C745;
+background-color: #FFFFFF;
+opacity: 1;
+z-index: -2;
+}
+.title{
+    position: absolute;
+    top: 500px;
+left: 648px;
+width: 144px;
+height: 33px;
+text-align: center;
+font: normal normal bold 24px/33px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.name{
+position: absolute;
+top: 604px;
+left: 316px;
+width: 32px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.sing{
+    position: absolute;
+    top: 604px;
+left: 732px;
+width: 32px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.phone{
+    position: absolute;
+    top: 692px;
+left: 316px;
+width: 64px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.mail{
+    position: absolute;
+    top: 780px;
+left: 316px;
+width: 64px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.address{
+    position: absolute;
+    top: 868px;
+left: 316px;
+width: 64px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.chcity{
+    position: absolute;
+    top: 908px;
+left: 332px;
+width: 80px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.chblock{
+    position: absolute;
+    top: 908px;
+left: 748px;
+width: 80px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.moreaddress{
+    position: absolute;
+    top: 956px;
+left: 332px;
+width: 112px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #C6C6C6;
+opacity: 1;
+}
+.artstyle{
+    position: absolute;
+    top: 1004px;
+left: 316px;
+width: 130px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.Meili{
+    position: absolute;
+    top: 1044px;
+left: 332px;
+width: 36px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.cash{
+    position: absolute;
+    top: 1092px;
+left: 316px;
+width: 64px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.arrive{
+    position: absolute;
+    top: 1132px;
+left: 332px;
+width: 64px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.more{
+    position: absolute;
+    top: 1180px;
+left: 316px;
+width: 64px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.gift{
+    position: absolute;
+    top: 1216px;
+left: 338px;
+width: 117px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.no{
+    position: absolute;
+    top: 1216px;
+left: 500px;
+width: 85px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.hint{
+    position: absolute;
+    top: 1252px;
+left: 316px;
+width: 64px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.total{
+    position: absolute;
+    top: 1422px;
+left: 634px;
+width: 172px;
+height: 34px;
+text-align: center;
+font: normal normal bold 24px/33px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.go{
+    position: absolute;
+    top: 1482px;
+left: 600px;
+width: 240px;
+height: 49px;
+background: #F9C745 0% 0% no-repeat padding-box;
+border-radius: 23px;
+opacity: 1;
+text-align: center;
+line-height: 50%;
+font: normal normal normal 20px/27px Noto Sans;
+color: #3A3A3A;
+}
+.bord1{
+    position: absolute;
+    top: 634px;
+left: 316px;
+width: 392px;
+height: 40px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 8px;
+opacity: 1;
+z-index: -1;
+}
+.bord2{
+    position: absolute;
+    top: 634px;
+left: 732px;
+width: 392px;
+height: 40px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 8px;
+opacity: 1;
+z-index: -1;
+
+}
+.bord3{
+    position: absolute;
+    top: 722px;
+left: 316px;
+width: 808px;
+height: 40px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 8px;
+opacity: 1;
+z-index: -1;
+
+}
+.bord4{
+    position: absolute;
+    top: 810px;
+left: 316px;
+width: 808px;
+height: 40px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 8px;
+opacity: 1;
+z-index: -1;
+
+}
+.bord5{
+    position: absolute;
+    top: 898px;
+left: 316px;
+width: 392px;
+height: 40px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 8px;
+opacity: 1;
+z-index: -1;
+
+}
+.bord6{
+    position: absolute;
+    top: 898px;
+left: 732px;
+width: 392px;
+height: 40px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 8px;
+opacity: 1;
+z-index: -1;
+
+}
+.bord7{
+    position: absolute;
+    top: 946px;
+left: 316px;
+width: 808px;
+height: 40px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 8px;
+opacity: 1;
+z-index: -1;
+
+}
+.bord8{
+    position: absolute;
+    top: 1034px;
+left: 316px;
+width: 808px;
+height: 40px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 8px;
+opacity: 1;
+z-index: -1;
+
+}
+.bord9{
+    position: absolute;
+    top: 1122px;
+left: 316px;
+width: 808px;
+height: 40px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 8px;
+opacity: 1;
+z-index: -1;
+
+}
+.bord10{
+    position: absolute;
+    top: 1216px;
+left: 316px;
+width: 16px;
+height: 16px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 4px;
+opacity: 1;
+z-index: -1;
+
+}
+.bord11{
+    position: absolute;
+    top: 1216px;
+left: 478px;
+width: 16px;
+height: 16px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 4px;
+opacity: 1;
+z-index: -1;
+
+}
+.bord12{
+    position: absolute;
+    top: 1282px;
+left: 316px;
+width: 808px;
+height: 98px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #CED4DA;
+border-radius: 8px;
+opacity: 1;
+z-index: -1;
+
+}
+
+.white{
+    position: absolute;
+    top: 1660px;
+left: 0px;
+width: 1440px;
+height: 223px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-top: 3px solid #F9C745;
+opacity: 1;
+}
+.hand{
+    position: absolute;
+    top: 1708px;
+left: 232px;
+width: 200px;
+height: 127px;
+background: transparent url('img/link01.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.hand1{
+    position: absolute;
+    top: 1708px;
+    left: 744px;
+width: 200px;
+height: 105px;
+background: transparent url('img/link02.png') 0% 0% no-repeat padding-box;
+border-radius: 53px;
+opacity: 1;
+}
+.join1{
+    position: absolute;
+    top: 1715px;
+left: 456px;
+width: 144px;
+height: 33px;
+text-align: left;
+font: normal normal normal 24px/33px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.join2{
+    position: absolute;
+    top: 1715px;
+    left: 968px;
+width: 144px;
+height: 33px;
+text-align: left;
+font: normal normal normal 24px/33px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.wjoin1{
+    position: absolute;
+    top: 1753px;
+    left: 456px;
+width: 240px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.wjoin2{
+    position: absolute;
+    top: 1753px;
+    left: 968px;
+width: 240px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.contact{
+    position: absolute;
+    top: 1789px;
+    left: 456px;
+width: 176px;
+height: 44px;
+border: 1px solid #3A3A3A;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.contact:hover{
+    position: absolute;
+    top: 1789px;
+    left: 456px;
+    width: 176px;
+    height: 44px;
+    border: 1px solid #3A3A3A;
+    border-radius: 23px;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+    background-color: #F9C745;
+
+}
+.adoptgo{
+    position: absolute;
+    top: 1789px;
+left: 968px;
+width: 176px;
+height: 44px;
+border: 1px solid #3A3A3A;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.adoptgo:hover{
+    position: absolute;
+    top: 1789px;
+    left: 968px;
+width: 176px;
+height: 44px;
+border: 1px solid #3A3A3A;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+background-color: #F9C745;
+}
+
+.black{
+    position: absolute;
+    top: 1885px;
+    left: -2px;
+width: 1444px;
+height: 70px;
+background: #3A3A3A 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.whitetext{
+    position: absolute;
+    top: 1909px;
+    left: 556px;
+width: 328px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}

@@ -1,0 +1,493 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+.guide{
+    position: fixed;
+    top: 0px;
+left: 0px;
+width: 1440px;
+height: 88px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+z-index: 1;
+}
+.logo{
+    position: absolute;
+    top: 24px;
+left: 62px;
+width: 119px;
+height: 40px;
+opacity: 1;
+}
+.home{
+    position: absolute;
+    top: 34px;
+left: 786px;
+width: 32px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+a:hover{
+    color: #F9C745;
+}
+
+.service{
+    position: absolute;
+    top: 34px;
+left: 866px;
+width: 64px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #F9C745;
+opacity: 1;
+}
+.service:hover{
+    color: #F9C745;
+}
+.product{
+    position: absolute;
+    top: 34px;
+left: 978px;
+width: 64px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+
+.adopt{
+    position: absolute;
+    top: 34px;
+left: 1090px;
+width: 64px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+
+
+.yellow{
+    position: absolute;
+    top: 26px;
+left: 1204px;
+width: 176px;
+height: 38px;
+background: #F9C745 0% 0% no-repeat padding-box;
+border-radius: 23px;
+opacity: 1;
+}
+.yellow:hover{
+    box-shadow: #3A3A3A;
+}
+.kid{
+    position: absolute;
+    top: 34px;
+left: 1252px;
+width: 80px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+a.kid:hover{
+    color: red;
+}
+.banner{
+    position: absolute;
+    top: 88px;
+left: 0px;
+width: 1440px;
+height: 288px;
+background: transparent url('img/banner.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 877px;
+    background: transparent url('img/lightpaperfibers.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+
+    z-index: -3;
+    
+
+}
+.step1{
+    position: absolute;
+    top: 456px;
+left: 124px;
+width: 203px;
+height: 200px;
+background: transparent url('img/step01.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.step2{
+    position: absolute;
+    top: 456px;
+left: 453px;
+width: 203px;
+height: 200px;
+background: transparent url('img/step02.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.step3{
+    position: absolute;
+    top: 456px;
+left: 782px;
+width: 203px;
+height: 200px;
+background: transparent url('img/step04.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.step4{
+    position: absolute;
+    top: 456px;
+left: 1111px;
+width: 203px;
+height: 200px;
+background: transparent url('img/step03.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.yt1{
+    position: absolute;
+    top: 672px;
+left: 201px;
+width: 50px;
+height: 32px;
+text-align: center;
+font: normal normal bold 20px/32px Kalam;
+letter-spacing: 0px;
+color: #F9C745;
+opacity: 1;
+}
+.yt2{
+    position: absolute;
+    top: 672px;
+left: 527px;
+width: 56px;
+height: 32px;
+text-align: center;
+font: normal normal bold 20px/32px Kalam;
+letter-spacing: 0px;
+color: #F9C745;
+opacity: 1;
+}
+.yt3{
+    position: absolute;
+    top: 672px;
+left: 857px;
+width: 54px;
+height: 32px;
+text-align: center;
+font: normal normal bold 20px/32px Kalam;
+letter-spacing: 0px;
+color: #F9C745;
+opacity: 1;
+}
+.yt4{
+    position: absolute;
+    top: 672px;
+left: 1186px;
+width: 54px;
+height: 32px;
+text-align: center;
+font: normal normal bold 20px/32px Kalam;
+letter-spacing: 0px;
+color: #F9C745;
+opacity: 1;
+}
+.bt1{
+    position: absolute;
+    top: 706px;
+left: 156px;
+width: 140px;
+height: 28px;
+text-align: center;
+font: normal normal bold 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.bt2{
+    position: absolute;
+    top: 706px;
+left: 505px;
+width: 100px;
+height: 28px;
+text-align: center;
+font: normal normal bold 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.bt3{
+    position: absolute;
+    top: 706px;
+left: 844px;
+width: 80px;
+height: 28px;
+text-align: center;
+font: normal normal bold 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.bt4{
+    position: absolute;
+    top: 706px;
+left: 1173px;
+width: 80px;
+height: 28px;
+text-align: center;
+font: normal normal bold 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.word1{
+    position: absolute;
+    top: 751px;
+left: 170px;
+width: 112px;
+height: 44px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.word2{
+    position: absolute;
+    top: 751px;
+left: 491px;
+width: 128px;
+height: 44px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.word3{
+    position: absolute;
+    top: 751px;
+left: 796px;
+width: 176px;
+height: 38px;
+text-align: center;
+font: normal normal normal 16px/19px 07LogoTypeGothic7;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.word4{
+    position: absolute;
+    top: 754px;
+left: 1104px;
+width: 218px;
+height: 35px;
+text-align: center;
+font: normal normal normal 16px/19px 07LogoTypeGothic7;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.white{
+    position: absolute;
+    top: 877px;
+left: 0px;
+width: 1440px;
+height: 223px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-top: 3px solid #F9C745;
+opacity: 1;
+}
+.hand{
+    position: absolute;
+    top: 925px;
+left: 232px;
+width: 200px;
+height: 127px;
+background: transparent url('img/link01.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.hand1{
+    position: absolute;
+    top: 936px;
+    left: 744px;
+width: 200px;
+height: 105px;
+background: transparent url('img/link02.png') 0% 0% no-repeat padding-box;
+border-radius: 53px;
+opacity: 1;
+}
+.join1{
+    position: absolute;
+    top: 932px;
+left: 456px;
+width: 144px;
+height: 33px;
+text-align: left;
+font: normal normal normal 24px/33px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.join2{
+    position: absolute;
+    top: 932px;
+    left: 968px;
+width: 144px;
+height: 33px;
+text-align: left;
+font: normal normal normal 24px/33px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.wjoin1{
+    position: absolute;
+    top: 970px;
+    left: 456px;
+width: 240px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.wjoin2{
+    position: absolute;
+    top: 970px;
+    left: 968px;
+width: 240px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.contact{
+    position: absolute;
+    top: 1006px;
+    left: 456px;
+width: 176px;
+height: 44px;
+border: 1px solid #3A3A3A;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.contact:hover{
+    position: absolute;
+    top: 1006px;
+    left: 456px;
+    width: 176px;
+    height: 44px;
+    border: 1px solid #3A3A3A;
+    border-radius: 23px;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+    background-color: #F9C745;
+
+}
+.adoptgo{
+    position: absolute;
+    top: 1008px;
+left: 968px;
+width: 176px;
+height: 44px;
+border: 1px solid #3A3A3A;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.adoptgo:hover{
+    position: absolute;
+    top: 1008px;
+    left: 968px;
+width: 176px;
+height: 44px;
+border: 1px solid #3A3A3A;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+background-color: #F9C745;
+}
+
+.black{
+    position: absolute;
+    top: 1102px;
+    left: -2px;
+width: 1444px;
+height: 70px;
+background: #3A3A3A 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.whitetext{
+    position: absolute;
+    top: 1126px;
+    left: 556px;
+width: 328px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}

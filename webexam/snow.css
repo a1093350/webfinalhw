@@ -1,0 +1,491 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.guide{
+    position: fixed;
+    top: 0px;
+left: 0px;
+width: 1440px;
+height: 88px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+z-index: 1;
+}
+.logo{
+    position: absolute;
+    top: 24px;
+left: 62px;
+width: 119px;
+height: 40px;
+opacity: 1;
+}
+.home{
+    position: absolute;
+    top: 34px;
+left: 786px;
+width: 32px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+a:hover{
+    color: #F9C745;
+}
+
+.service{
+    position: absolute;
+    top: 34px;
+left: 866px;
+width: 64px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.service:hover{
+    color: #F9C745;
+}
+.product{
+    position: absolute;
+    top: 34px;
+left: 978px;
+width: 64px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+
+opacity: 1;
+}
+
+.adopt{
+    position: absolute;
+    top: 34px;
+left: 1090px;
+width: 64px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #F9C745;
+opacity: 1;
+}
+
+
+.yellow{
+    position: absolute;
+    top: 26px;
+left: 1204px;
+width: 176px;
+height: 38px;
+background: #F9C745 0% 0% no-repeat padding-box;
+border-radius: 23px;
+opacity: 1;
+}
+.yellow:hover{
+    box-shadow: #3A3A3A;
+}
+.kid{
+    position: absolute;
+    top: 34px;
+left: 1252px;
+width: 80px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+a.kid:hover{
+    color: red;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1440px;
+    height: 1314px;
+    background: transparent url('img/lightpaperfibers.png') 0% 0% no-repeat padding-box;
+    background-size: cover;
+    z-index: -3;
+
+}
+.pic{
+    position: absolute;
+    top: 128px;
+left: 595px;
+width: 250px;
+height: 134px;
+background: transparent url('img/title02.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.left{
+    position: absolute;
+    top: 306px;
+left: 60px;
+width: 872px;
+height: 928px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 4px 8px #0000001A;
+border-radius: 12px;
+opacity: 1;
+}
+.right{
+    position: absolute;
+    top: 302px;
+left: 956px;
+width: 424px;
+height: 747px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 4px 8px #00000014;
+border-radius: 24px;
+opacity: 1;
+}
+.title{
+    position: absolute;
+    top: 340px;
+left: 93px;
+width: 144px;
+height: 34px;
+text-align: center;
+font: normal normal bold 24px/33px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.wleft{
+    position: absolute;
+    top: 399px;
+left: 92px;
+width: 96px;
+height: 86px;
+text-align: left;
+font: normal normal normal 16px/32px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.wright{
+    position: absolute;
+    top: 399px;
+left: 396px;
+width: 144px;
+height: 86px;
+text-align: left;
+font: normal normal normal 16px/32px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.text{
+    position: absolute;
+    top: 535px;
+left: 92px;
+width: 808px;
+height: 86px;
+text-align: left;
+font: normal normal normal 16px/32px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.hosky{
+    position: absolute;
+    top: 663px;
+left: 92px;
+width: 808px;
+height: 539px;
+background: transparent url('img/dog03.png') 0% 0% no-repeat padding-box;
+border-radius: 12px;
+opacity: 1;
+}
+.ugly{
+    position: absolute;
+    top: 302px;
+left: 956px;
+width: 424px;
+height: 424px;
+background: transparent url('img/08.png') 0% 0% no-repeat padding-box;
+border-radius: 24px 24px 0px 0px;
+opacity: 1;
+}
+.shelter{
+    position: absolute;
+    top: 752px;
+left: 980px;
+width: 48px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.phone{
+    position: absolute;
+    top: 820px;
+left: 980px;
+width: 32px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.address{
+    position: absolute;
+    top: 888px;
+left: 980px;
+width: 32px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.wshelter{
+    position: absolute;
+    top: 780px;
+left: 980px;
+width: 128px;
+height: 22px;
+text-align: left;
+font: normal normal bold 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.wphone{
+    position: absolute;
+    top: 848px;
+left: 980px;
+width: 78px;
+height: 22px;
+text-align: left;
+font: normal normal bold 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.waddress{
+    position: absolute;
+    top: 916px;
+left: 980px;
+width: 203px;
+height: 22px;
+text-align: left;
+font: normal normal bold 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+
+.gohome{
+    position: absolute;
+    top: 966px;
+left: 980px;
+width: 376px;
+height: 51px;
+background: #F9C745 0% 0% no-repeat padding-box;
+border-radius: 24px;
+opacity: 1;
+text-align: center;
+line-height: 50%;
+font: normal normal normal 20px/27px Noto Sans;
+
+}
+
+.white{
+    position: absolute;
+    top: 1314px;
+left: 0px;
+width: 1440px;
+height: 223px;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-top: 3px solid #F9C745;
+opacity: 1;
+}
+.hand{
+    position: absolute;
+    top: 1362px;
+left: 232px;
+width: 200px;
+height: 127px;
+background: transparent url('img/link01.png') 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.hand1{
+    position: absolute;
+    top: 1362px;
+    left: 744px;
+width: 200px;
+height: 105px;
+background: transparent url('img/link02.png') 0% 0% no-repeat padding-box;
+border-radius: 53px;
+opacity: 1;
+}
+.join1{
+    position: absolute;
+    top: 1369px;
+left: 456px;
+width: 144px;
+height: 33px;
+text-align: left;
+font: normal normal normal 24px/33px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.join2{
+    position: absolute;
+    top: 1369px;
+    left: 968px;
+width: 144px;
+height: 33px;
+text-align: left;
+font: normal normal normal 24px/33px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.wjoin1{
+    position: absolute;
+    top: 1407px;
+    left: 456px;
+width: 240px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.wjoin2{
+    position: absolute;
+    top: 1407px;
+    left: 968px;
+width: 240px;
+height: 22px;
+text-align: left;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.contact{
+    position: absolute;
+    top: 1443px;
+    left: 456px;
+width: 176px;
+height: 44px;
+border: 1px solid #3A3A3A;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.contact:hover{
+    position: absolute;
+    top: 1443px;
+    left: 456px;
+    width: 176px;
+    height: 44px;
+    border: 1px solid #3A3A3A;
+    border-radius: 23px;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+    background-color: #F9C745;
+
+}
+.adoptgo{
+    position: absolute;
+    top: 1443px;
+left: 968px;
+width: 176px;
+height: 44px;
+border: 1px solid #3A3A3A;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+opacity: 1;
+}
+.adoptgo:hover{
+    position: absolute;
+    top: 1443px;
+    left: 968px;
+width: 176px;
+height: 44px;
+border: 1px solid #3A3A3A;
+border-radius: 23px;
+text-align: center;
+font: normal normal normal 20px/27px Noto Sans;
+letter-spacing: 0px;
+color: #3A3A3A;
+background-color: #F9C745;
+}
+
+.black{
+    position: absolute;
+    top: 1539px;
+    left: -2px;
+width: 1444px;
+height: 70px;
+background: #3A3A3A 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.whitetext{
+    position: absolute;
+    top: 1563px;
+    left: 556px;
+width: 328px;
+height: 22px;
+text-align: center;
+font: normal normal normal 16px/22px Noto Sans;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+}
